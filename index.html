@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1> Inicia Sesion</h1>
+<button id = "login">Inicia con Google</button>
+<div id = "root"></div>
+<button id ="guardar">Guardar</button>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAEVj4IRR_M7C44t57K_k7qxu7t6nqgYA4",
+    authDomain: "ejemplo-80a83.firebaseapp.com",
+    databaseURL: "https://ejemplo-80a83.firebaseio.com",
+    projectId: "ejemplo-80a83",
+    storageBucket: "ejemplo-80a83.appspot.com",
+    messagingSenderId: "1045236669713"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src= "app.js"></script>
+</body>
+</html>
